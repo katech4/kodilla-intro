@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Books {
+public class Books {
+    public static void main(String[] args) {
+        String book = Book.of("Isaac Asimov", "The Galaxy");
+    }
 }
