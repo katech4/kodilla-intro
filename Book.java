@@ -12,4 +12,12 @@ public class Book {
         Book book = new Book(author, title);
         return book;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "author='" + author + '\'' +
+                ", title='" + title + '\'' +
+                '}';
+    }
 }
